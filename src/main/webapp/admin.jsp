@@ -13,11 +13,7 @@ if (session.getAttribute("user") == null) {
 <meta charset="ISO-8859-1">
 <title>Online Job Portal</title>
 <style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 60%;
-    }
+
     .back-img {
         background: url("img/admin.jpg");
         height: 85vh;
@@ -47,6 +43,6 @@ if (session.getAttribute("user") == null) {
 <div class="back-img">
 
 </div>
-
+<%@ include file="all_component/footer.jsp" %>
 </body>
 </html>

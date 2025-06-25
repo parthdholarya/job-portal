@@ -1,4 +1,13 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 
+.page-content {
+  flex: 1;
+}
 /* 1. Nav links (Post Job, View Jobs, etc.) */
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {

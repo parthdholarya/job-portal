@@ -7,18 +7,13 @@
 <meta charset="ISO-8859-1">
 <title>Online Job Portal</title>
 <style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 60%;
-    }
     .back-img {
         background: url("img/wallpaper.jpg");
-        height: 81vh;
+        height: 75vh;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        width: 75%;
+        width: 73%;
         margin-left:12%;
     }
     .text-white {
@@ -40,6 +35,6 @@
 <div class="back-img">
 
 </div>
-
+<%@ include file="all_component/footer.jsp" %>
 </body>
 </html>

@@ -120,5 +120,6 @@ addJob j=dao.getJobById(id);
     <p class="text-center text-danger">${error}</p>
     <c:remove var="error"/>
 	</c:if>
+	<%@ include file="all_component/footer.jsp" %>
 </body>
 </html>

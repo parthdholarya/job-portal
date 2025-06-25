@@ -54,6 +54,6 @@ if (session.getAttribute("user") == null) {
         <h2><i class="fa fa-book"></i> Online Job Portal</h2>
     </div>
 </div>
-
+<%@ include file="all_component/footer.jsp" %>
 </body>
 </html>
