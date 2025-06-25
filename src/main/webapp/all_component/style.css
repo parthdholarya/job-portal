@@ -1,0 +1,17 @@
+
+/* 1. Nav links (Post Job, View Jobs, etc.) */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    background-color:#2f7acd;   /* a slightly darker blue strip */
+    color:#fff !important;      /* keep text white */
+    border-radius:.25rem;       /* optional: rounded hover pill */
+    transition:background .2s;  /* smooth fade */
+}
+
+/* 2. Buttons (Login, Logout, Profile, Signup) */
+.btn-light:hover,
+.btn-light:focus {
+    background:#2f7acd;         /* amber on hover */
+    color:#000 !important;      /* dark text so it’s readable */
+    border-color:#ffc107;
+}
